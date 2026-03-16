@@ -1,6 +1,6 @@
 import './App.css'
 
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
+import {HashRouter, Switch, Route, Redirect} from 'react-router-dom'
 
 import Login from './components/Login'
 import Home from './components/Home'
@@ -10,7 +10,7 @@ import NotFound from './components/NotFound'
 import JobItemDetails from './components/JobItemDetails'
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path="/login" component={Login} />
 
@@ -24,7 +24,7 @@ const App = () => (
 
       <Redirect to="/not-found" />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 export default App
