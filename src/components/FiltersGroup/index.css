@@ -1,0 +1,41 @@
+.filters-group-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.filter-heading {
+  margin: 0px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.filters-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.filters-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-label {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
