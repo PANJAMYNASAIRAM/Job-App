@@ -1,3 +1,34 @@
+Project Description
+
+The Letters Calculator is a simple React application that counts the number of letters entered in a text input field. As the user types a phrase, the application instantly calculates and displays the total number of characters in real time. The project demonstrates basic React concepts such as component state, event handling, and controlled inputs.
+Features
+
+Real-time letter counting as the user types
+Interactive input field for entering phrases
+Responsive layout that works on both mobile and desktop
+Clean and simple user interface
+Built using React class components
+Instant UI update using React state
+Technologies Used
+
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
+React Component State & Event Handling
+Installation Steps
+
+1. Clone the repository git clone https://github.com/PANJAMYNASAIRAM/job-app.git
+2. Go to project folder "cd job-app"
+3. Install dependencies "npm install"
+4. Start the project "npm start"
+Live Demo
+
+https://PANJAMYNASAIRAM.github.io/job-app
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
